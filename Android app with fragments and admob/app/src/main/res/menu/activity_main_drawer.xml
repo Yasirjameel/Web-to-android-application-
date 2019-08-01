@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/gForm"
+            android:icon="@drawable/ic_format_indent_increase_black_24dp"
+            android:title="Guessing Form" />
+        <item
+            android:id="@+id/liveresults"
+            android:icon="@drawable/ic_present_to_all_black_24dp"
+            android:title="Live Results" />
+
+        <item
+            android:id="@+id/freetips"
+            android:icon="@drawable/tips"
+            android:title="Free Tips" />
+        <item
+            android:id="@+id/sattaking"
+            android:icon="@drawable/king"
+            android:title="Satta King" />
+        <item
+            android:id="@+id/kubermatka"
+            android:icon="@drawable/kuber"
+            android:title="Kuber Matka" />
+        <item
+            android:id="@+id/charts"
+            android:icon="@drawable/charts"
+            android:title="Charts" />
+        <item
+            android:id="@+id/weeklycharts"
+            android:icon="@drawable/ic_next_week_black_24dp"
+            android:title="Weekly Charts" />
+        <item
+            android:id="@+id/vipgames"
+            android:icon="@drawable/vip"
+            android:title="Vip Games" />
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/ic_share_black_24dp"
+            android:title="Share" />
+
+    </group>
+
+
+
+</menu>
